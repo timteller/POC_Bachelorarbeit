@@ -3,7 +3,6 @@ from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 
 BASE_URL = "http://localhost:8000"
-
 KEY_PATH = './keys/client_1.pem'
 
 def load_private_key(path: str) -> Ed25519PrivateKey:
